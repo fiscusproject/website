@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="604" height="140" viewBox="0 0 604 140">
+<g transform="scale(0.5833)">
+<defs><clipPath id="ld"><circle cx="120" cy="120" r="89"></circle></clipPath></defs>
+<circle cx="120" cy="120" r="90" fill="#e7ca81"></circle>
+<g clip-path="url(#ld)" transform="rotate(45 120 120)">
+<path d="M20 74H220M20 120H220M20 166H220" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M20 74H220M20 120H220M20 166H220" stroke="#deb95d" stroke-width="26" fill="none"></path>
+<path d="M74 20V220M166 20V220" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M74 20V220M166 20V220" stroke="#deb95d" stroke-width="26" fill="none"></path>
+<path d="M120 20V220" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M120 20V220" stroke="#c38f24" stroke-width="26" fill="none"></path>
+<path d="M53 74H95M145 74H187M99 120H141M53 166H95M145 166H187" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M46 74H102M138 74H194M92 120H148M46 166H102M138 166H194" stroke="#deb95d" stroke-width="26" fill="none"></path>
+</g>
+<circle cx="120" cy="120" r="91" fill="none" stroke="#1a2846" stroke-width="4"></circle>
+<circle cx="120" cy="120" r="99.5" fill="none" stroke="#d7ae52" stroke-width="13"></circle>
+<circle cx="120" cy="120" r="110" fill="none" stroke="#F4F1E9" stroke-width="8"></circle>
+</g>
+<g transform="translate(176 20)" fill="none" stroke="#F4F1E9" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+<path d="M46 9H9V91M9 52H38"></path>
+<path d="M90 9V91"></path>
+<path d="M46 9H9V50H46V91H9" transform="translate(125 0)"></path>
+<path d="M46 9H9V91H46" transform="translate(206 0)"></path>
+<path d="M9 9V78Q9 91 22 91H33Q46 91 46 78V9" transform="translate(287 0)"></path>
+<path d="M46 9H9V50H46V91H9" transform="translate(368 0)"></path>
+</g>
+</svg>

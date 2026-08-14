@@ -1,0 +1,67 @@
+# robots.txt for fiscusproject.eu
+# Policy: all crawlers welcome, including AI training and AI search/assistant bots.
+# A catch-all allow would cover everyone; the AI bots are listed explicitly to
+# make the intent unambiguous (and to override any inherited blocklists).
+
+# --- OpenAI ---
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+Allow: /
+
+# --- Anthropic ---
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+Allow: /
+
+# --- Google (Gemini training & grounding; normal Googlebot needs no opt-in) ---
+User-agent: Google-Extended
+Allow: /
+
+# --- Perplexity ---
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+
+# --- Brave (index powers Brave Search, Leo, and Brave's AI agents) ---
+User-agent: Bravebot
+Allow: /
+
+# --- Apple (Applebot-Extended controls AI training use) ---
+User-agent: Applebot
+User-agent: Applebot-Extended
+Allow: /
+
+# --- Meta ---
+User-agent: meta-externalagent
+User-agent: meta-externalfetcher
+Allow: /
+
+# --- Amazon ---
+User-agent: Amazonbot
+Allow: /
+
+# --- Common Crawl (feeds many open training datasets) ---
+User-agent: CCBot
+Allow: /
+
+# --- Mistral ---
+User-agent: MistralAI-User
+Allow: /
+
+# --- DuckDuckGo AI answers ---
+User-agent: DuckAssistBot
+Allow: /
+
+# Note on Proton Lumo: Proton runs no crawler of its own. Lumo's web search
+# reads from third-party privacy-focused search indexes (incl. Brave's, allowed
+# above), and Proton doesn't train models, so there is no Proton bot token.
+# If Proton ever launches one, the catch-all below already allows it.
+
+# --- Everyone else (search engines, archives, and any AI bot not listed) ---
+User-agent: *
+Allow: /
+
+# Remove or update if you don't publish a sitemap:
+Sitemap: https://fiscusproject.eu/sitemap.xml

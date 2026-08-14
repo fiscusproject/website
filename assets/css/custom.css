@@ -1,0 +1,15 @@
+/* Fiscus brand palette (brandbook/README.md is canonical):
+   navy #1a2846 (hsl 221 46% 19%), amber #c38f24 (hsl 40 69% 45%).
+   Hextra derives its accent color from these tokens.
+   Brandbook rule: navy on light backgrounds, gold on dark. */
+:root {
+  --primary-hue: 221deg;
+  --primary-saturation: 46%;
+  --primary-lightness: 32%;
+}
+
+.dark {
+  --primary-hue: 40deg;
+  --primary-saturation: 69%;
+  --primary-lightness: 55%;
+}

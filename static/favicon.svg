@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+<defs><clipPath id="f"><circle cx="120" cy="120" r="89"></circle></clipPath></defs>
+<circle cx="120" cy="120" r="92" fill="#e7ca81"></circle>
+<g clip-path="url(#f)" transform="rotate(45 120 120)">
+<path d="M20 74H220M20 120H220M20 166H220" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M20 74H220M20 120H220M20 166H220" stroke="#deb95d" stroke-width="26" fill="none"></path>
+<path d="M74 20V220M166 20V220" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M74 20V220M166 20V220" stroke="#deb95d" stroke-width="26" fill="none"></path>
+<path d="M120 20V220" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M120 20V220" stroke="#c38f24" stroke-width="26" fill="none"></path>
+<path d="M53 74H95M145 74H187M99 120H141M53 166H95M145 166H187" stroke="#1a2846" stroke-width="34" fill="none"></path>
+<path d="M46 74H102M138 74H194M92 120H148M46 166H102M138 166H194" stroke="#deb95d" stroke-width="26" fill="none"></path>
+</g>
+<circle cx="120" cy="120" r="100" fill="none" stroke="#d7ae52" stroke-width="14"></circle>
+<circle cx="120" cy="120" r="112" fill="none" stroke="#1a2846" stroke-width="10"></circle>
+</svg>

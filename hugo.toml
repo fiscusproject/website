@@ -1,0 +1,53 @@
+baseURL = "https://fiscusproject.eu/"
+locale = "en"
+title = "Fiscus — Free and Open-Source Fiscalization"
+copyright = "© 2026 Fiscus" # used by RSS; the footer text comes from i18n/en.yaml
+
+enableRobotsTXT = false # static/robots.txt is authored by hand
+disableKinds = ["taxonomy", "term"] # no tags/categories on this site
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/fiscusproject"
+    weight = 1
+    [menu.main.params]
+      icon = "github"
+
+[params]
+  description = "Fiscus is a free, open-source, self-hosted fiscalization service for the EU — Croatia, Slovenia, Austria, and Spain (VeriFactu). Your certificates never leave your infrastructure."
+  images = ["images/fiscus-social-tagline-1280x640.png"]
+
+  [params.navbar]
+    displayTitle = false
+    displayLogo = true
+    [params.navbar.logo]
+      path = "images/fiscus-lockup-light.svg"
+      dark = "images/fiscus-lockup-dark.svg"
+      width = 130
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.footer]
+    enable = true
+    displayCopyright = true
+    displayPoweredBy = false
+
+  [params.editURL]
+    enable = false
+
+  # Nothing to index yet — re-enable when docs pages exist
+  [params.search]
+    enable = false

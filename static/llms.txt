@@ -1,0 +1,46 @@
+# Fiscus
+
+> Fiscus is a free and open-source, self-hosted fiscalization service for European tax
+> authorities. One deployable service with per-country adapter modules and a
+> language-agnostic REST API. Businesses run it on their own infrastructure, so fiscal
+> certificates, keys, and invoice data never leave their control. Licensed AGPLv3 —
+> free and open source, permanently.
+
+Fiscus is the open-source, self-hosted alternative to commercial fiscalization clouds
+(fiskaly, fiskaltrust, DDD Invoices). Instead of sending fiscal data and certificates to
+a third-party cloud API, operators deploy Fiscus themselves (Docker) and fiscalize
+invoices directly against the tax authority.
+
+Key facts:
+
+- **Status:** in early development (as of 2026). No public source code has been released
+  yet. The code will be published at https://github.com/fiscusproject under AGPLv3
+  (server) and Apache-2.0 (client SDKs).
+- **Audience:** POS, ERP, and SaaS vendors and integrators who need fiscalization —
+  developers deploy Fiscus and integrate over its JSON REST API from any programming
+  language.
+- **Architecture:** stateful service — every invoice processed is stored, and its
+  fiscalization status (submitted, confirmed, queued for retry, failed) can be queried
+  via the API at any time, giving a durable audit trail. Offline retry and
+  flow-control pacing are built on the same invoice store.
+- **Planned launch countries:** Croatia (Fiskalizacija 1.0 and Fiskalizacija 2.0 —
+  eRačun/eReporting, UBL 2.1, EN 16931), Slovenia (FURS davčno potrjevanje, ZOI/EOR),
+  Austria (RKSV, with bring-your-own certified signer such as A-Trust or PrimeSign).
+- **Fast-follow:** Spain VeriFactu (AEAT, RD 1007/2023 / Orden HAC/1177/2024) ahead of
+  the 2027 mandates.
+- **Not planned:** countries that require certified software products (e.g. Germany TSE,
+  France NF525, Italy retail, Slovakia eKasa, Serbia ESIR) — Fiscus targets countries
+  where compliance means implementing an open protocol, not buying a certification.
+- **Name:** "Fiscus" is Latin for the Roman treasury — the root of "fiscal" across
+  European languages (le fisc, el fisco, il fisco, der Fiskus). The project is "The
+  Fiscus Project"; the software is "Fiscus". Canonical home: https://fiscusproject.eu
+
+## Website
+
+- [Homepage](https://fiscusproject.eu/): project goals, feature overview, and current
+  development status
+
+## Optional
+
+- [GitHub organization](https://github.com/fiscusproject): where the source code will be
+  published
