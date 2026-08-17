@@ -27,6 +27,15 @@ Every push to `master` triggers a GitHub Actions workflow that builds the site a
 publishes it to AWS (S3 + CloudFront). Infrastructure is managed separately in the
 `website-infrastructure` repository.
 
+## License
+
+Code (templates, configuration, build tooling) is licensed under the
+[MIT License](LICENSE). Site content (`content/` — pages and documentation) is licensed
+under [CC BY-SA 4.0](LICENSE-content).
+
+The Fiscus name and logo are **not** covered by these licenses; their use is governed by
+the [trademark policy](https://github.com/fiscusproject/brandbook/blob/master/TRADEMARK.md).
+
 ## AI Policy
 
 The code in this repository was produced with AI assistance. All decisions were made by the project maintainers, every line of code was human-reviewed, and the maintainers remain accountable for the accuracy and originality of the work.
