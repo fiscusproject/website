@@ -5,20 +5,16 @@ description: "Fiscus is a free, open-source, self-hosted fiscalization service f
 ---
 
 {{< hextra/hero-badge link="#status" >}}
-  <span>In development — no public release yet</span>
+  In development — no public release yet
 {{< /hextra/hero-badge >}}
 
-<div style="margin-top: 1.5rem; margin-bottom: 1.5rem;">
-{{< hextra/hero-headline >}}
+{{< hextra/hero-headline style="margin-top: 1.5rem; margin-bottom: 1.5rem;" >}}
   Free and open-source fiscalization
 {{< /hextra/hero-headline >}}
-</div>
 
-<div style="margin-bottom: 3rem;">
-{{< hextra/hero-subtitle >}}
-  Fiscus is a self-hosted fiscalization service for European tax authorities.&nbsp;<br class="hx:sm:block hx:hidden" />One deployable service, per-country adapters, a language-agnostic REST API.
+{{< hextra/hero-subtitle style="margin-bottom: 3rem;" >}}
+  Fiscus is a self-hosted fiscalization service for European tax authorities.&nbsp;{{< line-break >}}One deployable service, per-country adapters, a language-agnostic REST API.
 {{< /hextra/hero-subtitle >}}
-</div>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
@@ -47,14 +43,12 @@ description: "Fiscus is a free, open-source, self-hosted fiscalization service f
   >}}
 {{< /hextra/feature-grid >}}
 
-<div style="max-width: 48rem; margin: 4rem auto 0 auto;">
-
-<h2 id="status" style="font-size: 1.75rem; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 1rem;">Project status</h2>
+{{< prose-section >}}
+## Project status {#status}
 
 Fiscus is **in early development**. There is **no publicly available source code yet** —
 the repository will be published at
 [github.com/fiscusproject](https://github.com/fiscusproject) once the foundation is in
 place. Until then, this page is the project's canonical home; what you read here
 describes what is being built, not what you can download today.
-
-</div>
+{{< /prose-section >}}

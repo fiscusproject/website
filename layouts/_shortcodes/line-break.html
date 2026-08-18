@@ -1,0 +1,12 @@
+{{- /*
+A responsive line break: suppressed on narrow screens, honoured from 640px up.
+
+Emits a token rather than a <br> because the surrounding hero shortcode pipes
+its inner content through markdownify, which would strip raw HTML while
+goldmark runs with `unsafe = false` (see hugo.toml). The override in
+layouts/_shortcodes/hextra/hero-subtitle.html swaps the token for the real
+element after rendering; .fiscus-hero-break in assets/css/custom.css styles it.
+
+@example Sentence one.{{< line-break >}}Sentence two.
+*/ -}}
+[[fiscus:line-break]]

@@ -12,7 +12,7 @@ disableKinds = ["taxonomy", "term"] # no tags/categories on this site
 
 [markup]
   [markup.goldmark.renderer]
-    unsafe = true
+    unsafe = false # content/ uses shortcodes, never raw HTML — keep this off
   [markup.highlight]
     noClasses = false
 
