@@ -1,9 +1,6 @@
 version: 2
 
 updates:
-  # Keeps the commit-SHA pins in .github/workflows/ current. Without this the
-  # pins are a security win that slowly rots into an unpatched-dependency
-  # problem, so the two changes belong together.
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -11,7 +8,6 @@ updates:
     commit-message:
       prefix: "ci"
 
-  # Hextra is a Hugo module fetched at build time and resolved through go.mod.
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
@@ -19,7 +15,6 @@ updates:
     commit-message:
       prefix: "deps"
 
-  # Base image and the mise binary copied into the dev container.
   - package-ecosystem: "docker"
     directory: "/.devcontainer"
     schedule:

@@ -10,12 +10,7 @@ on:
 jobs:
   mirror:
     uses: fiscusproject/.github/.github/workflows/mirror.yml@master
-    # The reusable workflow clones this repo over public HTTPS and pushes to
-    # Codeberg; it never uses GITHUB_TOKEN. Deny the default token scope rather
-    # than inheriting whatever the repo/org default happens to be.
     permissions:
       contents: read
-    # Pass only the one secret the reusable workflow declares, not `inherit`
-    # (which would hand it every repo and org secret).
     secrets:
       CODEBERG_TOKEN: ${{ secrets.CODEBERG_TOKEN }}
