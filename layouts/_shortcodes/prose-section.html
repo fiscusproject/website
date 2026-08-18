@@ -1,0 +1,14 @@
+{{- /*
+A centred, measure-constrained block of body copy below the hero.
+
+Exists so content/ needs no raw HTML and goldmark's `unsafe` renderer can stay
+off (see hugo.toml). Styled by .fiscus-prose in assets/css/custom.css.
+
+@example {{< prose-section >}}## Heading {#anchor}
+
+Body copy.
+{{< /prose-section >}}
+*/ -}}
+<section class="fiscus-prose">
+{{ .Inner | markdownify }}
+</section>

@@ -1,0 +1,29 @@
+{{- /*
+Local override of Hextra's hextra/hero-subtitle.
+
+Why this exists: content/ must not contain raw HTML, so that goldmark can run
+with `unsafe = false` (see hugo.toml). The upstream shortcode pipes .Inner
+through markdownify, which strips raw HTML — including the responsive line
+break the subtitle needs. Nesting a shortcode does not help: nested output is
+inlined *before* markdownify and gets stripped too. So {{< line-break >}}
+emits a token that survives markdownify, and it is swapped for the real <br>
+here, after rendering.
+
+The class list is copied verbatim from Hextra v0.12.3; re-check it when
+bumping the theme.
+
+@param {string} style The style of the subtitle.
+
+@example {{< hextra/hero-subtitle >}}First line.{{< line-break >}}Second.{{< /hextra/hero-subtitle >}}
+*/ -}}
+
+{{- $style := .Get "style" -}}
+{{- $br := "<br class=\"fiscus-hero-break\" />" -}}
+{{- $content := .Inner | markdownify | replaceRE "\\[\\[fiscus:line-break\\]\\]" $br -}}
+
+<p
+  class="not-prose hx:text-xl hx:text-gray-600 hx:dark:text-gray-400 hx:sm:text-xl"
+  {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
+>
+  {{ $content | safeHTML }}
+</p>
