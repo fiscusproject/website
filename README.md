@@ -1,7 +1,9 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fiscusproject/brandbook/master/banner/fiscus-readme-tagline-1280x320-dark.png">
-  <img src="https://raw.githubusercontent.com/fiscusproject/brandbook/master/banner/fiscus-readme-tagline-1280x320-light.png" alt="Fiscus — free and open-source fiscalization" width="640">
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fiscusproject/brandbook/master/banner/fiscus-readme-tagline-1280x320-dark.png">
+    <img src="https://raw.githubusercontent.com/fiscusproject/brandbook/master/banner/fiscus-readme-tagline-1280x320-light.png" alt="Fiscus — free and open-source fiscalization" width="640">
+  </picture>
+</p>
 
 # website
 
@@ -11,15 +13,26 @@ free and open-source, self-hosted fiscalization service for Europe. Built with
 
 ## Local development
 
-Requires [mise](https://mise.jdx.dev), which pins Hugo and Go:
+### In a dev container
+
+`.devcontainer/` defines a [DevPod](https://devpod.sh) that
+installs the pinned toolchain automatically.
+
+```sh
+devpod up . --ide vscode
+hugo server
+```
+
+### On your machine
+
+Alternatively, [mise](https://mise.jdx.dev) is required, which pins Hugo and Go:
 
 ```sh
 mise install
 hugo server
 ```
 
-Then open <http://localhost:1313>. Content lives in `content/`; site configuration in
-`hugo.toml`.
+Either way, open <http://localhost:1313> afterwards.
 
 ## Deployment
 
