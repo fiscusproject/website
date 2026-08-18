@@ -1,5 +1,3 @@
 [tools]
 go = "1.25"
 hugo-extended = "0.165.0"
-vim = "9"
-chezmoi = "2.72"
