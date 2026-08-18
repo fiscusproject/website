@@ -13,8 +13,6 @@ free and open-source, self-hosted fiscalization service for Europe. Built with
 
 ## Local development
 
-
-
 ### In a dev container
 
 `.devcontainer/` defines a [DevPod](https://devpod.sh) that
@@ -22,7 +20,6 @@ installs the pinned toolchain automatically.
 
 ```sh
 devpod up . --ide vscode
-devpod ssh
 hugo server
 ```
 
