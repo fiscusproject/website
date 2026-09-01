@@ -1,7 +1,7 @@
 ---
-title: "Fiscus — free and open-source fiscalization"
+title: "Fiscusproject.eu"
 layout: hextra-home
-description: "Fiscus is a free, open-source, self-hosted fiscalization service for European tax authorities."
+description: "Fiscus is a free, open-source, self-hosted fiscalization service for European businesses."
 ---
 
 {{< hextra/hero-badge link="#status" >}}
@@ -13,7 +13,7 @@ description: "Fiscus is a free, open-source, self-hosted fiscalization service f
 {{< /hextra/hero-headline >}}
 
 {{< hextra/hero-subtitle style="margin-bottom: 3rem;" >}}
-  Fiscus is a self-hosted fiscalization service for European tax authorities.&nbsp;{{< line-break >}}One deployable service, per-country adapters, a language-agnostic REST API.
+  Fiscus is a self-hosted fiscalization service for European businesses.&nbsp;{{< line-break >}}One deployable service, per-country adapters, a language-agnostic REST API.
 {{< /hextra/hero-subtitle >}}
 
 {{< hextra/feature-grid >}}

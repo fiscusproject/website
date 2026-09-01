@@ -1,6 +1,6 @@
 baseURL = "https://fiscusproject.eu/"
 locale = "en"
-title = "Fiscus — Free and Open-Source Fiscalization"
+title = "Fiscusproject.eu"
 copyright = "© 2026 Fiscus" # used by RSS; the footer text comes from i18n/en.yaml
 
 enableRobotsTXT = false # static/robots.txt is authored by hand
