@@ -8,7 +8,7 @@
 # website
 
 Source of [fiscusproject.eu](https://fiscusproject.eu) — the website of **Fiscus**, the
-free and open-source, self-hosted fiscalization service for Europe. Built with
+free and open-source, self-hosted fiscalization service for European businesses. Built with
 [Hugo](https://gohugo.io) and the [Hextra](https://github.com/imfing/hextra) theme.
 
 ## Local development
