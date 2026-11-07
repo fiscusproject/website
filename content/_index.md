@@ -18,16 +18,16 @@ description: "Fiscus is a free, open-source, self-hosted fiscalization service f
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Open source, forever"
-    subtitle="Fiscus is licensed under the AGPLv3 and always will be. No open-core bait-and-switch, no relicensing, no per-receipt pricing. Compliance infrastructure belongs in the commons."
+    title="Free and open source, forever"
+    subtitle="Fiscus is licensed under the AGPLv3 and always will be. No licence fees, no per-invoice charges, no usage limits. Fiscus is a software project, not a hosted service: we publish the code, and you deploy and run it on your own terms."
   >}}
   {{< hextra/feature-card
     title="Self-hosted, sovereign"
-    subtitle="Commercial fiscalization clouds require handing over your fiscal certificates and transaction data. Fiscus runs on your infrastructure — keys, invoices, and receipts stay with you."
+    subtitle="Commercial fiscalization clouds require handing over your fiscal certificates and transaction data. Fiscus runs on your infrastructure, so keys, invoices, and receipts stay with you."
   >}}
   {{< hextra/feature-card
-    title="Every invoice accounted for"
-    subtitle="Fiscus stores every invoice it processes. Query any invoice's fiscalization status over the API at any time — submitted, confirmed, queued for retry — with a durable audit trail."
+    title="Quality first, AI in the open"
+    subtitle="Fiscus handles your tax records, so we build it carefully. Top quality and transparent AI usage is our priority. Our AI policy is following NLnet's GenAI Policy version 2.0 and maintainers understand and stand behind every line of code."
   >}}
   {{< hextra/feature-card
     title="One service, many countries"
@@ -39,16 +39,15 @@ description: "Fiscus is a free, open-source, self-hosted fiscalization service f
   >}}
   {{< hextra/feature-card
     title="Built for a stronger Europe"
-    subtitle="Every euro not spent on commercial fiscalization software stays with a European business. Fiscus cuts the cost of compliance: instead of renting a proprietary service, deploy your own in minutes — plug and play — and start doing business faster."
+    subtitle="Every euro not spent on commercial fiscalization software stays with a European business. Fiscus cuts the cost of compliance: instead of renting a proprietary service, deploy your own in minutes and start doing business faster."
   >}}
 {{< /hextra/feature-grid >}}
 
 {{< prose-section >}}
 ## Project status {#status}
 
-Fiscus is **in early development**. There is **no publicly available source code yet** —
-the repository will be published at
-[github.com/fiscusproject](https://github.com/fiscusproject) once the foundation is in
-place. Until then, this page is the project's canonical home; what you read here
-describes what is being built, not what you can download today.
+Fiscus is **in early development**. There is **no publicly available source code yet**.
+The repository will be published at
+[github.com/fiscusproject/fiscus](https://github.com/fiscusproject/fiscus) once the
+foundation is in place.
 {{< /prose-section >}}
